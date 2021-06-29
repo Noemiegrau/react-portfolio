@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
-import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 import ContactForm from './components/ContactForm';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
@@ -11,16 +11,16 @@ function App() {
 
   const chooseCat = () => {
     switch (catSelected) {
-            case "about":
+            case "about-me":
               return <About />;
-            case "project":
-              return <Project />;
+            case "portfolio":
+              return <Portfolio />;
             case "contactform":
               return <ContactForm />;
             case "resume":
               return <Resume />;
             default: 
-              return null;
+              return <About />;
     }
   };
 

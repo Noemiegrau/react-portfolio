@@ -1,10 +1,16 @@
 import React from 'react';
+import Navigation from '../Navigation'
 
-function Header() {
+function Header(props) {
+
+    const { catSelected, setCatSelected } = props;
 
     return (
       <header>
-          yes
+        <h1>
+            <a href="#">Noemie Grau</a>
+        </h1>
+          <Navigation catSelected={catSelected} setCatSelected={setCatSelected}></Navigation>
       </header>
     );
   }
