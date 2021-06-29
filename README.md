@@ -21,7 +21,7 @@ Project is created using:
 * Bootstrap
 
 ## **_Usage_**
-
+![Screen Shot 2021-06-29 at 11 03 53 AM](https://user-images.githubusercontent.com/78329298/123846141-d647fc00-d8c9-11eb-8d00-282b977512ad.png)
 
 ## **_Installation_**
 Here are some guidelines for installing the project on your local machine in order to be able to try it: 
