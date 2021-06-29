@@ -8,7 +8,7 @@ function Header(props) {
     return (
       <header>
         <h1>
-            <a href="#">Noemie Grau</a>
+            <h1>Noemie Grau</h1>
         </h1>
           <Navigation catSelected={catSelected} setCatSelected={setCatSelected}></Navigation>
       </header>
