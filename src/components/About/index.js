@@ -5,7 +5,7 @@ function About() {
     return (
 <div>
         <section className="my-5">
-            <h1 id="about">About Me</h1>
+            <h1 id="about"><i>About Me</i></h1>
         </section>
 
     <section id="about-me" className="sections about-me">
@@ -17,10 +17,10 @@ function About() {
             alt="Noemie Grau smiling"
             className="me-hero-img"
           />
-        <p>My name is Noemie Grau. I am from France and I live in Los Angeles. 
+        </div>
+        <p className="description-about">My name is Noemie Grau. I am from France and I live in Los Angeles. 
             <br/> I am an International Marketing graduate and am currently enrolled in UCLA coding bootcamp.
         </p>
-        </div>
         </article>
 
     </section>

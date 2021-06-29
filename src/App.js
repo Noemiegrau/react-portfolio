@@ -26,7 +26,9 @@ function App() {
 
   return (
     <div>
-      <Header catSelected={catSelected} setCatSelected={setCatSelected}></Header>
+      <header>
+        <Header catSelected={catSelected} setCatSelected={setCatSelected}></Header>
+      </header>
       <div>
         <main>
             {chooseCat()}

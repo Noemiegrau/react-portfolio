@@ -4,8 +4,7 @@ import DownloadLink from "react-download-link";
 function Resume() {
 
   return (
-    <header>
-
+<div id="container-resume">
 {/* <p>Download my <a href="./myResume.png">resume</a></p> */}
 
 <DownloadLink
@@ -34,7 +33,7 @@ function Resume() {
           <li> REST</li>
           <li> MVC</li>
           </ul>
-      </header>
+          </div>
   );
 }
 
