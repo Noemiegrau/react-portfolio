@@ -24,7 +24,6 @@ code {
   color: rgb(255, 74, 105);
 }
 
-
 /* HEADER / NAV BAR STYLES START */
 
 header {
@@ -126,7 +125,7 @@ footer a:hover {
 
 /* FOOTER END */
 
-/* PORTFOLIO */
+/* PORTFOLIO/PROJECT */
 
 #portfolio {
   display: flex;
@@ -134,14 +133,100 @@ footer a:hover {
   margin: 40px;
 }
 
-/* PORTFOLIO END */
+#portfolio-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
 
+#btns-projects {
+  margin: 5px;
+}
 
+#btns-projects Button {
+  margin: 5px;
+  background-color: rgb(255, 80, 109);
+  border: none;
+}
 
+#btns-projects Button a {
+  text-decoration: none;
+  color:pink;
+}
+
+#btns-projects Button:hover {
+  background-color: rgb(255, 115, 139);
+}
+
+#spacecards {
+  margin: 10px;
+}
+
+/* PORTFOLIO/PROJECT END */
+
+/* RESUME */
+
+#resume {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
 
 #container-resume {
-margin: 40px;
+  margin: 40px;
 }
+
+#container-resume h2 {
+  margin: 20px;
+}
+
+/* RESUME END */
+
+/* CONTACT ME */
+
+#contact-me {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+#container-contactme {
+  display: flex;
+  margin: 40px;
+  justify-content: center;
+}
+
+#contact-form button{
+  font-weight: 600;
+  color: pink;
+  background-color: rgb(255, 72, 103);
+  border-color: rgb(255, 72, 103);
+  margin: 20px;
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  cursor: pointer;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#contact-form {
+  background-color: pink;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+/* CONTACT ME END */
 
 
 @media only screen and (min-width: 600px) {
@@ -149,10 +234,42 @@ margin: 40px;
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 980px) {
   /* For desktop: 768 and + */
-  .navActive {
-    color: lightblue;
+
+  .me-hero-img {
+    max-width: 35%;
+    align-items: center;
   }
+  
+  .description-about {
+    margin: 40px;
+    font-size: 25px;
+  }
+
+  #container-resume li {
+    font-size: 22px;
+  }
+
+  #contact-form {
+    font-size: 22px;
+  }
+
+  #spacecards {
+    font-size: 22px;
+  }
+
+  #spacecards a {
+    font-size: 20px;
+  }
+
+  #spacecards span {
+    font-size: 26px;
+  }
+
+  #container-resume a {
+    font-size: 26px;
+  }
+
 }
 

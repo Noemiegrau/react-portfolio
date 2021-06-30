@@ -53,18 +53,22 @@ const [photos] = useState([
 const currentPhotos = photos.filter((photo) => photo.name === name);
 
     return (
+      <div id="spacecards">
         <div className="flex-row">
             {currentPhotos.map((image, i) => (
-        <Card style={{ width: '18rem' }}>
+        <Card id="card-projects" style={{ width: '18rem' }}>
         <Card.Img variant="top" src={require(`./images/${image.i}.png`).default} alt="portfolio project" />
         <Card.Body>
-          <Card.Title>{image.title}</Card.Title>
+          <Card.Title><span>{image.title}</span></Card.Title>
           <Card.Text>{image.description}</Card.Text>
-          <Button variant="primary"><a href={image.linkApp}>View deployed application</a> </Button><br />
-          <Button variant="primary"><a href={image.linkGithub}>View GitHub repository</a> </Button>
+          <div id="btns-projects">
+          <Button><a href={image.linkApp}>View deployed application</a> </Button><br />
+          <Button><a href={image.linkGithub}>View GitHub repository</a> </Button>
+          </div>
         </Card.Body>
       </Card>
       ))}
+      </div>
       </div>
     );
   };

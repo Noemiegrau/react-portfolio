@@ -3,10 +3,12 @@ import Project from '../Project'
 
 function Portfolio(props) {
     return (
-        <section>
-          <h1 id="portfolio"><i>Portfolio</i></h1>
+      <div>
+        <h1 id="portfolio"><i>Portfolio</i></h1>
+        <section id="portfolio-container">
           <Project />
         </section>
+      </div>
     );
   }
 

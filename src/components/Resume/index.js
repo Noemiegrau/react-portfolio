@@ -7,9 +7,14 @@ function Resume() {
 <div id="container-resume">
 {/* <p>Download my <a href="./myResume.png">resume</a></p> */}
 
+  <section>
+    <h1 id="resume"><i>Resume</i></h1>
+  </section>
+
 <DownloadLink
     label="Download my Resume"
     filename="myResume.png"
+    id="downloadResume"
     exportFile={() => Promise.resolve("My cached data")}
 />
 
