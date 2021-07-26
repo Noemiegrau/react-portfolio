@@ -42,19 +42,12 @@ const [photos] = useState([
         linkGithub: 'https://github.com/Noemiegrau/password-generator'
       },
       {
-        i: '6',
-        title: 'Weather Dashboard',
-        description: 'A weather dashboard application where users can look for different cities and their corresponding 5-day forecast weather.',
-        linkApp: 'https://noemiegrau.github.io/weather-dashboard/',
-        linkGithub: 'https://github.com/Noemiegrau/weather-dashboard'
-      },
-      {
         i: '7',
         title: 'Chelcie Fans',
         description: 'A MERN stack blog where people can create an account, post their thoughts for others to see, interact with other users through these posts, be friends with each other and comment on posts.',
         linkApp: 'https://secret-hollows-41476.herokuapp.com/',
         linkGithub: 'https://github.com/simmonsW/chelcie-fans'
-      }  
+      } 
 ]);
 
 const currentPhotos = photos.filter((photo) => photo.name === name);
