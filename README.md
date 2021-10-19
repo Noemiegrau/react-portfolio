@@ -6,7 +6,7 @@
 * [Usage](#Usage)
 * [Installation](#installation)
 * [Link URL to GitHub Repository](#link-URL-to-GitHub-repository)
-* [Link URL of deployed app to Heroku](#link-URL-of-deployed-app-to-Heroku)
+* [Link URL of deployed app to GitHub Pages](#link-URL-of-deployed-app-to-GitHub-Pages)
 
 ## **_Description of the project_**
 
