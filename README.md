@@ -10,7 +10,7 @@
 
 ## **_Description of the project_**
 
-This repository contains all the coding data related to my REACT portfolio website.
+This repository is an example of a REACT portfolio website.
 
 ## **_Technologies used_**
 Project is created using:
